@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    标题  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/testName"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </TableRow>
+
+<!--    第1题  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/test1"
+                android:id="@+id/test1"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/answer1_1"
+        android:id="@+id/answer1_1"
+        android:textColor="@color/colorFont"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/answer1_2"
+        android:id="@+id/answer1_2"
+        android:textColor="@color/colorFont"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/answer1_3"
+        android:textColor="@color/colorFont"
+        android:id="@+id/answer1_3"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/answer1_4"
+        android:id="@+id/answer1_4"
+        android:textColor="@color/colorFont"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>
+    </TableRow>
+
+<!--    第2题  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/test2"
+                android:id="@+id/test2"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer2_1"
+                android:id="@+id/answer2_1"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer2_2"
+                android:id="@+id/answer2_2"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer2_3"
+                android:id="@+id/answer2_3"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer2_4"
+                android:id="@+id/answer2_4"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+
+<!--    第3题  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/test3"
+                android:id="@+id/test3"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer3_1"
+                android:id="@+id/answer3_1"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer3_2"
+                android:id="@+id/answer3_2"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer3_3"
+                android:id="@+id/answer3_3"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer3_4"
+                android:id="@+id/answer3_4"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+
+<!--    第4题  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/test4"
+                android:id="@+id/test4"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer4_1"
+                android:id="@+id/answer4_1"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer4_2"
+                android:id="@+id/answer4_2"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer4_3"
+                android:id="@+id/answer4_3"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer4_4"
+                android:id="@+id/answer4_4"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+
+<!--    提交重做按钮  -->
+    <TableRow
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/submit"
+                android:background="@color/submitColor"
+                android:textColor="@color/colorFont"
+                android:id="@+id/button1"
+                android:textSize="20dp"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset"
+                android:background="@color/resetColor"
+                android:textColor="@color/colorFont"
+                android:id="@+id/button2"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

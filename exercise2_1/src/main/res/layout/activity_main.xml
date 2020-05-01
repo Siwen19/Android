@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:background="@color/colorBachground"
+    tools:context=".MainActivity">
+
+    <!--  第1行  -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/top_title"
+                android:textSize="36dp"
+                android:gravity="center"
+                android:textColor="@color/colorFont" />
+        </LinearLayout>
+    </TableRow>
+    <!--  第2行  -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sub_title"
+                android:textColor="@color/colorFont"
+                android:textSize="36dp" />
+
+        </LinearLayout>
+
+    </TableRow>
+    <!--  第3行  -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b1"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/b2"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+    <!--  第4行  -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b3"
+                android:layout_weight="2"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/b4"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </TableRow>
+    <!--  第5行  -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@mipmap/b5"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/b6"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </TableRow>
+
+    <!--  第6行  -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

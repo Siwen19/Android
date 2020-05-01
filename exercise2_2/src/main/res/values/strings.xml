@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">exercise2_2</string>
+    <string name="submit">提交</string>
+    <string name="reset">重做</string>
+    <string name="test1">1. 10+5=? (15分)</string>
+    <string name="answer1_1">15</string>
+    <string name="answer1_2">20</string>
+    <string name="answer1_3">25</string>
+    <string name="answer1_4">30</string>
+    <string name="test2">2. 63-18=? (15分)</string>
+    <string name="answer2_1">25</string>
+    <string name="answer2_2">35</string>
+    <string name="answer2_3">45</string>
+    <string name="answer2_4">55</string>
+    <string name="test3">3. 28*5=? (15分)</string>
+    <string name="answer3_1">110</string>
+    <string name="answer3_2">120</string>
+    <string name="answer3_3">130</string>
+    <string name="answer3_4">140</string>
+    <string name="test4">4. x+y=8; 3x-y=16; 则x=?, y=? (25分)</string>
+    <string name="answer4_1">x=6, y=2</string>
+    <string name="answer4_2">x=3, y=5</string>
+    <string name="answer4_3">x=2, y=6</string>
+    <string name="answer4_4">x=5, y=3</string>
+    <string name="test5">5. 3x+2y=11; 5x-z=3; 2y-z=-2; 则x=?, y=?, z=? (30分)</string>
+    <string name="answer5_1">x=2.5, y=7,\n z=2</string>
+    <string name="answer5_2">x=2, y=2.5,\n z=7</string>
+    <string name="answer5_3">x=3, y=2.5,\n z=4</string>
+    <string name="answer5_4">x=7, y=2.5,\n z=2</string>
+</resources>

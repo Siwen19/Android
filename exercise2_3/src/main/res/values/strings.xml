@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">exercise2_3</string>
+    <string name="testName">计算小测验二</string>
+    <string name="test1">1. a+b=15, a=?, b=? (20分)</string>
+    <string name="answer1_1">a=5, b=10</string>
+    <string name="answer1_2">a=8, b=7</string>
+    <string name="answer1_3">a=3, b=9</string>
+    <string name="answer1_4">a=12, b=4</string>
+
+    <string name="test2">2. 2a-3b=7 a=?, b=? (20分)</string>
+    <string name="answer2_1">a=5, b=1</string>
+    <string name="answer2_2">a=6, b=2</string>
+    <string name="answer2_3">a=3, b=9</string>
+    <string name="answer2_4">a=-1, b=-3</string>
+
+    <string name="test3">3. 3a÷b×2c=18, a=?, b=?, c=? (20分)</string>
+    <string name="answer3_1">a=2, b=8, c=5</string>
+    <string name="answer3_2">a=5, b=15, c=9</string>
+    <string name="answer3_3">a=6, b=6, c=3</string>
+    <string name="answer3_4">a=8, b=4, c=6</string>
+
+    <string name="test4">1. 3a÷2b×5c=20, a=?, b=?, c=? (40分)</string>
+    <string name="answer4_1">a=2, b=3,\n c=4</string>
+    <string name="answer4_2">a=4, b=3,\n c=2</string>
+    <string name="answer4_3">a=8, b=3,\n c=1</string>
+    <string name="answer4_4">a=10, b=0.75,\n c=0.2</string>
+
+    <string name="submit">提交</string>
+    <string name="reset">重做</string>
+</resources>

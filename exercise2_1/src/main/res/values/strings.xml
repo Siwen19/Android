@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">exercise2_1</string>
+    <string name="top_title">RFID</string>
+    <string name="sub_title">仓库管理系统</string>
+</resources>
